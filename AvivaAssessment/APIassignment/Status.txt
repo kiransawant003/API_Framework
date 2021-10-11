@@ -1,0 +1,37 @@
+
+ Validate Payee
+ Status: 0 - Request Processed Successfully
+ Host Status: 350 - Valid Wallet Detail
+ Add Payee
+ Status: -1 - Request Processing Failed
+ Host Status: 144 - Biller Addition failed
+ Validate Payee
+ Status: 0 - Request Processed Successfully
+ Host Status: 350 - Valid Wallet Detail
+ Validate Payee
+ Status: 0 - Request Processed Successfully
+ Host Status: 350 - Valid Wallet Detail
+ Validate Payee
+ Status: 0 - Request Processed Successfully
+ Host Status: 350 - Valid Wallet Detail
+ Validate Payee
+ Status: 0 - Request Processed Successfully
+ Host Status: 350 - Valid Wallet Detail
+ Validate Payee
+ Status: 0 - Request Processed Successfully
+ Host Status: 350 - Valid Wallet Detail
+ Status: 0 - Request Processed Successfully
+ Host Status: 0 -  Biller Added Sucessfully
+ Add Payee
+ Validate Payee
+ Status: 0 - Request Processed Successfully
+ Host Status: 350 - Valid Wallet Detail
+ Add Payee
+ Status: 0 - Request Processed Successfully
+ Host Status: 0 -  Biller Added Sucessfully
+ Validate Payee
+ Status: 0 - Request Processed Successfully
+ Host Status: 350 - Valid Wallet Detail
+ Add Payee
+ Status: 0 - Request Processed Successfully
+ Host Status: 0 -  Biller Added Sucessfully

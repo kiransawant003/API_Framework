@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Getting geolocation by passing invalid p",
+        "description": "",
+        "id": "this-is-to-check-the-geolocation-for-the-below-api;getting-geolocation-by-passing-invalid-p;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 119019410,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the rest API is \"https://api.postcodes.io/postcodes/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://api.postcodes.io/postcodes/",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinition.the_rest_API_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3030486355,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the postcode is \"OX49 5NU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OX49 5NU",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinition.the_postcode_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 303436018,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[India]\u003e but was:\u003c[England]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat implementation.stepdefinition.validate_the_country(stepdefinition.java:42)\r\n\tat ✽.Then validate the country \"India\"(Scenarios.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "validate the country \"India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinition.validate_the_country(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@GeoLocation_PassingPostCode_INVALID_Scenario"
+          }
+        ]
+      }
+    ],
+    "name": "This is to check the GeoLocation for the below API",
+    "description": "",
+    "id": "this-is-to-check-the-geolocation-for-the-below-api",
+    "keyword": "Feature",
+    "uri": "Scenarios.feature"
+  }
+]

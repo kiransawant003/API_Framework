@@ -1,0 +1,97 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 44,
+        "name": "Getting geolocation by passing valid Long\u0026Lat",
+        "description": "",
+        "id": "this-is-to-check-the-geolocation-for-the-below-api;getting-geolocation-by-passing-valid-long\u0026lat;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 139129302,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "rest API is \"http://api.postcodes.io/postcodes?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.postcodes.io/postcodes?",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.rest_API_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1722803899,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the longitude is\"0.629834723775309\" and latitude is \"51.7923246977375\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.629834723775309",
+                  "offset": 17
+                },
+                {
+                  "val": "51.7923246977375",
+                  "offset": 53
+                }
+              ],
+              "location": "stepdefinition.the_longitude_is_and_latitude_is(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 355614638,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat implementation.stepdefinition.validate_the_country_from_it(stepdefinition.java:67)\r\n\tat ✽.Then validate the country from it \"India\"(Scenarios.feature:40)\r\n",
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "validate the country from it \"India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinition.validate_the_country_from_it(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@GeoLocation_PassingLongLat_INVALID_Scenario"
+          }
+        ]
+      }
+    ],
+    "name": "This is to check the GeoLocation for the below API",
+    "description": "",
+    "id": "this-is-to-check-the-geolocation-for-the-below-api",
+    "keyword": "Feature",
+    "uri": "Scenarios.feature"
+  }
+]
